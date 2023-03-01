@@ -1,0 +1,181 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(45, 53, 53, 0.124);
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container-card{
+  background-color: white;
+  height: 400px;
+  width: 300px;
+  display: inherit;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  background: rgb(46,43,233);
+  background: -moz-linear-gradient(175deg, rgba(46,43,233,1) 0%, rgba(120,87,255,1) 100%);
+  background: -webkit-linear-gradient(175deg, rgba(46,43,233,1) 0%, rgba(120,87,255,1) 100%);
+  background: linear-gradient(175deg, rgba(46,43,233,1) 0%, rgba(120,87,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#2e2be9",endColorstr="#7857ff",GradientType=1);
+  
+  
+}
+.result{
+  display: flex;
+  padding: 25px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title{
+  font-size: 23px;
+  margin-bottom: 50px;
+  color: hsl(0, 0%, 100%);
+
+}
+.text{
+  color: hsl(0, 0%, 100%);
+  width: 85%;
+ 
+}
+.text > h2{
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.text > p{
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.circle> h2{
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: hsl(0, 0%, 100%);
+}
+.circle > p{
+  color:hsl(221, 100%, 96%);
+}
+
+.circle{
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 43%;
+  width: 160px;
+  height: 160px;
+  margin-bottom: 40px;
+  background-color: #2e2be9 ;
+  
+  
+}
+
+.container-summary{
+  background-color: azure;
+  height: 400px;
+  width: 300px;
+  border-radius: 20px;
+  
+}
+.summary{
+  padding: 25px;
+}
+.text-summary{
+  display: flex;
+}
+
+.inputs_ref{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 0 20px;
+}
+
+.h2-summary-title{
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.img-icon-text-1{
+  display: flex;
+  align-items: center;
+}
+
+.inputs5{
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  margin-top: 50px;
+}
+
+.btb-cont{
+  width: 100%;
+  border-radius: 20px;
+  border: none;
+  font-size: 18px;
+  background-color: hsl(224, 30%, 27%);
+  color: azure;
+}
+
+
+
+@media screen and (max-width: 375px) {
+  .container{
+    flex-direction: column;
+  }
+ 
+}
